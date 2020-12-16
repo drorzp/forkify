@@ -1,8 +1,8 @@
-/node_modules
-/dist
-/.parcel-cache
+node_modules
+dist
+.parcel-cache
 .prettierrc
 forkify-architecture-recipe-loading.png
 forkify-flowchart-part**.png
 package-lock.json
-/.vscode
+.vscode
