@@ -2,11 +2,10 @@ import icons from 'url:../../img/icons.svg';
 import View from './View.js';
 import { Fraction } from 'fractional';
 class RecipeView extends View {
-  _parentEl = document.querySelector('.recipe');
   _data;
   _errorMessage = 'we could not find this recepie please try again';
   _message = '';
-
+  _parentEl = document.querySelector('.recipe');
   _generateIngredient(ing) {
     return `
     <li class="recipe__ingredient">
